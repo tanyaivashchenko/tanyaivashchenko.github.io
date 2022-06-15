@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Інтернет-магазин</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div id="header">
+			<div id="logo"> Siluet </div>
+			<div id="menu">
+				<ul>
+					<li><a class="fokyg" href='index.html'>ГОЛОВНА</a></li>
+					<li><a class="fokyg" href='catalog.html'>КАТАЛОГ</a></li>
+					<li><a class="fokyg" href='contact.html'>КОНТАКТИ</a></li>
+					<li><a class="fokyg" href='Basket.html'>КОШИК</a></li>
+				</ul>
+			</div>
+		</div>
+	<hr>
+	<div class='goodswrap'>
+	<img class="dre" src="photo_2021-03-29_23-52-23.jpg" alt="#" >
+	<p class="goods"> Трикотажний костюм </p>
+	<ul class="char">
+	  	Ціна 500 грн
+	  
+       <div id="sales"> <input type="button" value="Купити" onclick="buy()" /></div>
+<script>
+var sales_div = document.getElementById("sales");
+function buy(){
+sales.innerHTML = 'Дякуємо за покупку! <input type="button" value="Відмінити покупку" onclick="cancel()" /> ';
+}
+function cancel(){
+sales.innerHTML = ' <input type="button" value="Купити" onclick="buy()" />';
+}
+</script>
+<div><button onclick="window.location.href='Basket.html';">Перейти в кошик для оформлення замовлення</button></div>
+	<link rel="stylesheet" type="text/css" href="Basket.html"></div>
+</ul></div></div>
+<div class="char">
+		<ul>
+	     <li>Бренд: ISSA PLUS</li>
+	      <li>Розмір: L, XL</li>
+	       <li>Матеріал: Фактурний трикотаж</li>
+            <li>Склад: 59%, поліестер, 21%, еластан, 20%, бавовна</li>
+        </ul>
+    </div>
+    <p class="jdr">Ганий та теплий костюм на флісі, щоб підібрати саме ваш розмір зверніться до таблиці розмірів </p>
+    <p> Технічні характеристики</p>
+	 <table cellpadding = "5">
+            <tr>
+              <th> Розмір </th>
+              <th> Тканина </th>
+              <th> Бренд </th>
+            </tr>
+            <tr>
+              <td>  L, XL </td>
+              <td>  Фактурний трикотаж </td> 
+              <td> ISSA PLUS </td>
+            </tr>
+          </table>
+	<img class="size" src="photo_2021-03-29_23-35-54.jpg" alt="#" >
+	<hr >
+	<footer >
+	<p>"Всі права захищені © "</p>
+</footer></div>
+</body>
+</html>
